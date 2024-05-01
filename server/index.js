@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(cors()); 
 app.use('/', route);
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT,()=>{
     console.log(`server listening on ${PORT}`);
 })
